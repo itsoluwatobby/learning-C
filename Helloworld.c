@@ -41,14 +41,14 @@ int main(){
   long long int s = 985421256632548652;
   unsigned long long int t = 5421256638655521254U;
 
-  printf("%0.12f\n", price);
-  printf("%c\n", den);
-  printf("%d\n", l);
-  printf("%d\n", g);
-  printf("%u\n", k);
-  printf("%lld\n", s);
-  printf("%llu\n", t);
-  printf("%d", e); //1 = true and 0 = false
+  // printf("%0.12f\n", price);
+  // printf("%c\n", den);
+  // printf("%d\n", l);
+  // printf("%d\n", g);
+  // printf("%u\n", k);
+  // printf("%lld\n", s);
+  // printf("%llu\n", t);
+  // printf("%d", e); //1 = true and 0 = false
 
   //FORMAT SPECIFIER % = defines and formats a type of data to be displayed
 
@@ -65,8 +65,23 @@ int main(){
   */
 
   float item1 = 5.75;
-  float items2 = 10.00
+  float item2 = 10.00;
+  float item3 = 100.99;
 
+  // printf("Item 1: $%.2f\n", item1);
+  // printf("Item 2: $%.2f\n", item2);
+  // printf("Item 3: $%.2f\n", item3);
+
+  //constants
+  const float PI = 3.14159;
+
+  int p = 5;
+  int q = 10;
+  p+=5;
+  float ans = p % q;
+
+  printf("%f\n", ans);
+  printf("%d\n", p);
 
   return 0;
 }
