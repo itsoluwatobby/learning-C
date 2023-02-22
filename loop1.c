@@ -30,10 +30,29 @@ int main()
 
   // printf("\nTotal number entered is %d", sum);
 
-  //Nested loops
+  // Nested loops
   int rows;
   int columns;
   char symbol;
+
+  printf("\nEnter number of rows: ");
+  scanf("%d", &rows);
+
+  printf("\nEnter number of columns: ");
+  scanf("%d", &columns);
+
+  printf("\nEnter a symbol to use: ");
+  scanf("%c", &symbol);
+  scanf("%c");
+
+  for (int i = 0; i < rows; i++)
+  {
+    for (int j = 0; j < columns; j++)
+    {
+      printf("%c", symbol);
+    }
+    printf("\n");
+  }
 
   return 0;
 }
