@@ -58,6 +58,7 @@ int main(){
     %d = integer
     %s = string (array of characters)
     %lf = double
+    %p = for address of a memory bllock
 
     %.1 = decimal precision
     %1 = minimum field width
